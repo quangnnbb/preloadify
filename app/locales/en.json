@@ -1,0 +1,116 @@
+{
+  "general": {
+    "activated": "Activated"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "cards": {
+      "appExtension": {
+        "title": "Enable Preloadify in your theme",
+        "content": "Preloadify Theme Extension is disabled, please enable it for Preloadify to work properly with your current theme.",
+        "actions": {
+          "enable": "Enable now",
+          "learnMore": "Learn more"
+        }
+      },
+      "activatedPreloader": {
+        "title": "Activated Preloader",
+        "content": "This preloader is currently active on your store:",
+        "actions": {
+          "change": "Change preloader"
+        },
+        "skeleton": {
+          "title": "Ready to make your store's loading experience look fantastic?",
+          "content": "Start by customizing the preloader to your liking. Then, activate it on your store.",
+          "actions": {
+            "change": "Choose a preloader"
+          }
+        }
+      },
+      "support": {
+        "title": "Support channels",
+        "actions": {
+          "help": "Help Center",
+          "chat": "Chat Support",
+          "request": "Feature Request"
+        },
+        "modal": {
+          "heading": "New feature request",
+          "labels": {
+            "details": "Feedback details",
+            "references": "References"
+          },
+          "contents": {
+            "details": "Input as many details as you can. If you have a solution to suggest, also input here.",
+            "references": "Add references (video, screenshot, file, etc.) to clarify about your feedback."
+          },
+          "actions": {
+            "send": "Send request",
+            "sending": "Sending...",
+            "cancel": "Cancel"
+          },
+          "success": "Feature request submitted successfully!",
+          "errors": {
+            "required": "Please fill in the details field",
+            "generic": "Failed to submit feature request. Please try again.",
+            "network": "Network error. Please check your connection and try again."
+          }
+        }
+      },
+      "changelog": {
+        "title": "Changelog",
+        "actions": {
+          "view": "View all"
+        }
+      },
+      "footer": {
+        "content": "Learn more about",
+        "link": "Preloadify"
+      }
+    }
+  },
+  "storeSettings": {
+    "title": "Settings",
+    "extension": {
+      "title": "Theme app extension",
+      "enable": "Enable",
+      "enabled": "Enabled"
+    },
+    "language": {
+      "title": "User interface",
+      "label": "Language",
+      "help": "Select the language of the app user interface. This doesn't affect the display language on your online store or of other collaborators.",
+      "english": "English",
+      "vietnamese": "Vietnamese",
+      "french": "French"
+    }
+  },
+  "preloaderSettings": {
+    "title": "Preloaders",
+    "description": "We support the following preloaders. Choose the filter below to see the available preloaders.",
+    "filter": {
+      "all": "All",
+      "dots": "Dots",
+      "spinner": "Spinner",
+      "square": "Square",
+      "graphic": "Graphic",
+      "bars": "Bars"  
+    },
+    "colors": {
+      "title": "Colors",
+      "description": "Choose the colors for your preloader, some preloaders may support Primary color only",
+      "background": "Background",
+      "primary": "Primary",
+      "secondary": "Secondary"
+    },
+    "speed": {
+      "title": "Animation Speed",
+      "description": "Choose the animation speed for preloader",
+      "speed": "Speed",
+      "slow": "Slow",
+      "medium": "Medium",
+      "fast": "Fast"
+    }
+  }
+}
+

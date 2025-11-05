@@ -1,0 +1,5 @@
+// Thin Lionfish Loader Configuration (minified)
+export const thinLionfishConfig = {
+  css: `.sht-loader{display:flex;align-items:center;justify-content:center;gap:8px}.sht-loader-in{height:16px;width:16px;border-radius:50%;background:var(--primary);animation:anm29832 calc(var(--speed) * 1.5) infinite ease-in-out;animation-delay:-.2s}.sht-loader-in:nth-child(2){animation-delay:-.1s}.sht-loader-in:nth-child(3){animation-delay:.1s}.sht-loader-in:nth-child(4){animation-delay:.2s}.sht-loader-in:nth-child(5){animation-delay:.3s}@keyframes anm29832{0%{transform:scale(0.8);background:var(--primary);box-shadow:0 0 0 0 rgba(var(--p-r),var(--p-g),var(--p-b),.7)}50%{transform:scale(1.2);background:var(--secondary);box-shadow:0 0 0 10px rgba(var(--s-r),var(--s-g),var(--s-b),0)}100%{transform:scale(0.8);background:var(--primary);box-shadow:0 0 0 0 rgba(var(--p-r),var(--p-g),var(--p-b),.7)}}`,
+  html: `<div class="sht-loader"><div class="sht-loader-in"></div><div class="sht-loader-in"></div><div class="sht-loader-in"></div><div class="sht-loader-in"></div><div class="sht-loader-in"></div></div>`
+};

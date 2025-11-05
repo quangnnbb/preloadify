@@ -1,0 +1,5 @@
+// Dual Orbit Loader Configuration (minified)
+export const dualOrbitConfig = {
+  css: `.sht-loader{--sht-size:4px;width:calc(var(--sht-size) * 9);height:calc(var(--sht-size) * 9);border-radius:50%;border:4px solid;border-color:var(--secondary) var(--secondary) transparent transparent;animation:anm92839 var(--speed) linear infinite}.sht-loader::after,.sht-loader::before{content:'';position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;border:4px solid;border-color:transparent transparent var(--primary) var(--primary);width:calc(var(--sht-size) * 7);height:calc(var(--sht-size) * 7);border-radius:50%;animation:anm92832 calc(var(--speed) * .5) linear infinite;transform-origin:center center}.sht-loader::before{width:calc(var(--sht-size) * 5);height:calc(var(--sht-size) * 5);border-color:var(--secondary) var(--secondary) transparent transparent;animation:anm92839 calc(var(--speed) * 1.5) linear infinite}@keyframes anm92839{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes anm92832{0%{transform:rotate(0deg)}100%{transform:rotate(-360deg)}}`,
+  html: `<div class="sht-loader"></div>`
+};

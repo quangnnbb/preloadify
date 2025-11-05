@@ -1,0 +1,5 @@
+// Hypnotic Loop Loader Configuration (minified)
+export const hypnoticLoopConfig = {
+  css: `.sht-loader{--sht-size:4px;width:calc(var(--sht-size) * 9);height:calc(var(--sht-size) * 9);border:4px solid var(--secondary);border-radius:50%;position:relative;animation:anm21882 var(--speed) linear infinite}.sht-loader::after{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:calc(var(--sht-size) * 6);height:calc(var(--sht-size) * 6);border:4px solid transparent;border-top-color:var(--primary);border-radius:50%;animation:anm21992 calc(var(--speed) * .5) linear infinite}@keyframes anm21882{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes anm21992{0%{transform:translate(-50%,-50%) rotate(0deg)}100%{transform:translate(-50%,-50%) rotate(-360deg)}}`,
+  html: `<div class="sht-loader"></div>`
+};

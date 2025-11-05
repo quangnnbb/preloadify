@@ -1,0 +1,5 @@
+// Arc Motion Loader Configuration (minified)
+export const arcMotionConfig = {
+  css: `.sht-loader{transform:rotateZ(45deg);width:36px;height:36px;color:var(--secondary)}.sht-loader:before,.sht-loader:after{content:'';display:block;position:absolute;top:0;left:0;width:inherit;height:inherit;border-radius:50%;transform:rotateX(70deg);animation:var(--speed) spin linear infinite}.sht-loader:after{color:var(--primary);transform:rotateY(70deg);animation-delay:.4s}@keyframes spin{0%,100%{box-shadow:.4em 0px 0 0px currentcolor}12%{box-shadow:.4em .4em 0 0 currentcolor}25%{box-shadow:0 .4em 0 0px currentcolor}37%{box-shadow:-.4em .4em 0 0 currentcolor}50%{box-shadow:-.4em 0 0 0 currentcolor}62%{box-shadow:-.4em -.4em 0 0 currentcolor}75%{box-shadow:0px -.4em 0 0 currentcolor}87%{box-shadow:.4em -.4em 0 0 currentcolor}}`,
+  html: `<div class="sht-loader"></div>`
+};

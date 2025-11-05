@@ -1,0 +1,5 @@
+// Jumping Square Loader Configuration (minified)
+export const jumpingSquareConfig = {
+  css: `.sht-loader{width:36px;height:36px;margin:auto;position:relative}.sht-loader:before{content:'';width:36px;height:5px;background:rgba(var(--p-r),var(--p-g),var(--p-b),.31);position:absolute;top:52px;left:0;border-radius:50%;animation:anm78291 calc(var(--speed) * .6) linear infinite}.sht-loader:after{content:'';width:100%;height:100%;background:var(--primary);position:absolute;top:0;left:0;border-radius:4px;animation:anm92392 calc(var(--speed) * .6) linear infinite}@keyframes anm92392{15%{border-bottom-right-radius:3px}25%{transform:translateY(9px) rotate(22.5deg)}50%{transform:translateY(18px) scale(1,.9) rotate(45deg);border-bottom-right-radius:40px}75%{transform:translateY(9px) rotate(67.5deg)}100%{transform:translateY(0) rotate(90deg)}}@keyframes anm78291{0%,100%{transform:scale(1,1)}50%{transform:scale(1.2,1)}}`,
+  html: `<div class="sht-loader"></div>`
+};

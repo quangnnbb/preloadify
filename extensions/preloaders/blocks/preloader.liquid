@@ -1,0 +1,23 @@
+{%- comment -%}
+  This app embed block injects a preloader that shows while the page is loading.
+{%- endcomment -%}
+
+<style>sht-preloader{position:fixed;top:0;left:0;width:100%;height:100%;background: {{ app.metafields.preloader.background | default: '#ffffff' }};z-index:136813681368;display:flex;justify-content:center;align-items:center;transition:background .8s,opacity .5s;}</style>
+<script type="module" src="{{ 'preloader.bundle.js' | asset_url }}"></script>
+
+<sht-preloader
+  data-css-loader="{{ app.metafields.preloader.cssLoader | default: 'pulseOrbit' }}"
+  data-animation-speed="{{ app.metafields.preloader.animationSpeed | default: 'medium' }}"
+  data-asset-base="{{ 'pulseOrbit.js' | asset_url }}"
+  data-background="{{ app.metafields.preloader.background | default: '#ffffff' }}"
+  data-primary="{{ app.metafields.preloader.primary | default: '#000000' }}"
+  data-secondary="{{ app.metafields.preloader.secondary | default: '#ffffff' }}"
+></sht-preloader>
+
+{% schema %}
+{
+  "name": "Preloadify",
+  "target": "head",
+  "settings": []
+}
+{% endschema %} 

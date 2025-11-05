@@ -1,0 +1,5 @@
+// Spectrum Pulse Loader Configuration (minified)
+export const spectrumPulseConfig = {
+  css: `.sht-loader{display:flex;justify-content:center;align-items:center;width:100px;gap:6px;height:100px}.sht-loader span{width:4px;height:50px;background:var(--primary);animation:scale calc(var(--speed) * 1.5) ease-in-out infinite;animation-delay:-0.9s}.sht-loader span:nth-child(2){background:rgba(var(--p-r),var(--p-g),var(--p-b),0.6);animation-delay:-0.8s}.sht-loader span:nth-child(3){background:var(--secondary);animation-delay:-0.7s}.sht-loader span:nth-child(4){background:rgba(var(--s-r),var(--s-g),var(--s-b),0.6);animation-delay:-0.6s}.sht-loader span:nth-child(5){background:var(--primary);animation-delay:-0.5s}@keyframes scale{0%,40%,100%{transform:scaleY(0.05)}20%{transform:scaleY(1)}}`,
+  html: `<div class="sht-loader"><span></span><span></span><span></span><span></span><span></span></div>`
+};

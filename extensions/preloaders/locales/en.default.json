@@ -1,0 +1,16 @@
+{
+  "preloader": {
+    "name": "Preloader",
+    "settings": {
+      "preloader_text": {
+        "label": "Loading Text"
+      },
+      "preloader_color": {
+        "label": "Preloader Color"
+      },
+      "preloader_bg_color": {
+        "label": "Background Color"
+      }
+    }
+  }
+} 

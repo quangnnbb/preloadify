@@ -1,0 +1,116 @@
+{
+  "general": {
+    "activated": "Activé"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "cards": {
+      "appExtension": {
+        "title": "Activer Preloadify dans votre thème",
+        "content": "L'extension du thème Preloadify est désactivée, veuillez l'activer pour que Preloadify fonctionne correctement avec votre thème actuel.",
+        "actions": {
+          "enable": "Activer maintenant",
+          "learnMore": "En savoir plus"
+        }
+      },
+      "activatedPreloader": {
+        "title": "Préchargeur activé",
+        "content": "Ce préchargeur est actuellement actif sur votre boutique :",
+        "actions": {
+          "change": "Changer le préchargeur"
+        },
+        "skeleton": {
+          "title": "Prêt à faire que l'expérience de chargement de votre boutique ressemble à un spectacle ?",
+          "content": "Commencez par personnaliser le préchargeur à votre goût. Ensuite, activez-le sur votre boutique.",
+          "actions": {
+            "change": "Choisir un préchargeur"
+          }
+        }
+      },
+      "support": {
+        "title": "Canaux de support",
+        "actions": {
+          "help": "Centre d'aide",
+          "chat": "Support en direct",
+          "request": "Demande de fonctionnalité"
+        },
+        "modal": {
+          "heading": "Nouvelle demande de fonctionnalité",
+          "labels": {
+            "details": "Détails du retour",
+            "references": "Références"
+          },
+          "contents": {
+            "details": "Saisissez autant de détails que possible. Si vous avez une solution à suggérer, saisissez-la également ici.",
+            "references": "Ajoutez des références (vidéo, capture d'écran, fichier, etc.) pour clarifier votre retour."
+          },
+          "actions": {
+            "send": "Envoyer la demande",
+            "sending": "Envoi...",
+            "cancel": "Annuler"
+          },
+          "success": "Demande de fonctionnalité soumise avec succès !",
+          "errors": {
+            "required": "Veuillez remplir le champ de détails",
+            "generic": "Échec de la soumission de la demande de fonctionnalité. Veuillez réessayer.",
+            "network": "Erreur réseau. Veuillez vérifier votre connexion et réessayer."
+          }
+        }
+      },
+      "changelog": {
+        "title": "Changelog",
+        "actions": {
+          "view": "Voir tout"
+        }
+      },
+      "footer": {
+        "content": "En savoir plus sur",
+        "link": "Preloadify"
+      }
+    }
+  },
+  "storeSettings": {
+    "title": "Paramètres",
+    "extension": {
+      "title": "Extension de l'application du thème",
+      "enable": "Activer",
+      "enabled": "Activé"
+    },
+    "language": {
+      "title": "Interface utilisateur",
+      "label": "Langue",
+      "help": "Sélectionnez la langue de l'interface utilisateur de l'application. Cela n'affecte pas la langue affichée sur votre boutique en ligne ou celle des autres collaborateurs.",
+      "english": "Anglais",
+      "vietnamese": "Vietnamien",
+      "french": "Français"
+    }
+  },
+  "preloaderSettings": {
+    "title": "Préchargeurs",
+    "description": "Nous supportons les préchargeurs suivants. Choisissez le filtre ci-dessous pour voir les préchargeurs disponibles.",
+    "filter": {
+      "all": "Tous",
+      "dots": "Points",
+      "spinner": "Roue de chargement",
+      "square": "Carré",
+      "graphic": "Graphique",
+      "bars": "Barres"  
+    },
+    "colors": {
+      "title": "Couleurs",
+      "description": "Choisissez les couleurs pour votre préchargeur, certains préchargeurs peuvent ne supporter que la couleur principale",
+      "background": "Fond",
+      "primary": "Principal",
+      "secondary": "Secondaire"
+    },
+    "speed": {
+      "title": "Vitesse d'animation",
+      "description": "Choisissez la vitesse d'animation pour votre préchargeur",
+      "speed": "Vitesse",
+      "slow": "Lente",
+      "medium": "Moyenne",
+      "fast": "Rapide"
+    }
+  }
+}
+
